@@ -19,3 +19,10 @@ console.log(series.length);
 for(let posicion = 0; posicion < series.length; posicion++){
     document.write('<br>Serie: '+series[posicion]);
 }
+
+//splice (posicion, elementos a borrar a partir de la posicion anterior, elemento a agregar)
+
+//splice (posicion, elementos a borrar)
+
+//eliminar todos los elementos a partir de una posicion
+series.splice (8)
