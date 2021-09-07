@@ -48,19 +48,27 @@ if (numero % 2 === 0) {
 
 */
 
-/* ejercicio 10 
-
 let numero = parseInt(prompt("ingrese un numero"));
 
-if (numero % 2 === 0) {
-  document.write("el numero es divisible por dos");
-} else if (numero % 3 === 0) {
-  document.write("el numero es divisible por tres");
-}else if (numero % 5 === 0) {
-    document.write("el numero es divisible por cinco");
-  }else if (numero % 7 === 0) {
-    document.write("el numero es divisible por siete");
-  } else document.write("el numero no es divisible por 2 , 3, 5 o 7");
-*/
+let divisibleDos = " no es divisible por dos ";
+let divisibleTres = " no es divisible por tres ";
+let divisibleCinco = " no es divisible por cinco ";
+let divisibleSiete = " no es divisible por siete ";
 
-// dudas en ejercicio 9 y 11, and y or
+if (numero % 2 === 0) {
+  divisibleDos = " es divisible por dos ";
+}
+if (numero % 3 === 0) {
+  divisibleTres = " es divisible por tres ";
+}
+if (numero % 5 === 0) {
+  divisibleCinco = " es divisible por cinco ";
+}
+if (numero % 7 === 0) {
+  divisibleSiete = " es divisible por siete ";
+}
+
+document.write(divisibleDos);
+document.write(divisibleTres);
+document.write(divisibleCinco);
+document.write(divisibleSiete);
