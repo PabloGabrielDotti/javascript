@@ -5,6 +5,6 @@ do{
     console.log(resultado);
     
 
-}while(confirm("¿desea cntinuar?"))
+}while(confirm("¿desea continuar?"))
 
 document.write(resultado)
