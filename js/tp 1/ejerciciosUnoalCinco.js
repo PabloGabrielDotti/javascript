@@ -68,7 +68,7 @@ if (numero % 7 === 0) {
   divisibleSiete = " es divisible por siete ";
 }
 
-document.write(divisibleDos);
-document.write(divisibleTres);
-document.write(divisibleCinco);
-document.write(divisibleSiete);
+document.write("</br>"+divisibleDos);
+document.write("</br>"+divisibleTres);
+document.write("</br>"+divisibleCinco);
+document.write("</br>"+divisibleSiete);

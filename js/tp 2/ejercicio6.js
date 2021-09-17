@@ -10,15 +10,28 @@ for (let i = 1; i <= 100; i++) {
   }
 */
 
+/*
 
 for(let i=1; i<=30;i++){
+
+
     for (let x=1; x<=i;x++){
+
+
         document.write(i)
     
     }
 document.write("<br>")
 }
+*/
 
-/* la primera vez i vale 1 y es menor a 30, entra al segundo for
+for (let fila = 1; fila <= 30; fila++) {
 
-en el segundo */
+
+    for (let columna = 1; columna <= 30-fila; columna++) {
+        document.write("x");
+    }
+
+    document.write("<br>");
+
+}

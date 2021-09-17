@@ -1,3 +1,4 @@
+
 let frase = prompt("inserte una frase");
 // hola mundo
 console.log(frase);
@@ -11,6 +12,9 @@ for (let vocal = 0; vocal < frase.length; vocal++) {
     frase.charAt(vocal) == "i" ||
     frase.charAt(vocal) == "o" ||
     frase.charAt(vocal) == "u"
-  )
+  ) {
     document.write(frase.charAt(vocal));
+  }
 }
+
+
