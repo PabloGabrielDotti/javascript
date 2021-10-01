@@ -8,7 +8,7 @@ let ingreso = parseInt(prompt("importe a ingresar"));
 cuenta.saldo = cuenta.saldo + ingreso;
 console.log(cuenta);
 
-let egreso = parseInt(prompt("importe a ingresar"));
+let egreso = parseInt(prompt("importe a retirar"));
 cuenta.saldo = cuenta.saldo - egreso;
 console.log(cuenta);
 
